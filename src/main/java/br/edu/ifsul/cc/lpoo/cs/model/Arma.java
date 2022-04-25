@@ -1,7 +1,7 @@
 package br.edu.ifsul.cc.lpoo.cs.model;
 import java.util.List;
 
-public class Arma extends Artefato{
+public class Arma extends Artefato{ //heranca
     private Float comprimentoArma;
     private Tipo tipo; // lista de constantes (enum)
     private List<Municao> listaMunicoes;
